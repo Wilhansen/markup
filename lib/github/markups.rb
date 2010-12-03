@@ -2,6 +2,10 @@ markup(:markdown, /md|mkdn?|mdown|markdown/) do |content|
   Markdown.new(content).to_html
 end
 
+markup(:maruku, /maruku/) do |content|
+  Maruku.new(content).to_html
+end
+
 markup(:redcloth, /textile/) do |content|
   RedCloth.new(content).to_html
 end

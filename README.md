@@ -11,6 +11,7 @@ The following markups are supported.  The dependencies listed are required if
 you wish to run the library.
 
 * [.markdown](http://daringfireball.net/projects/markdown/) -- `gem install rdiscount`
+* [.maruku] (http://maruku.rubyforge.org/maruku.html) -- `gem install maruku`
 * [.textile](http://www.textism.com/tools/textile/) -- `gem install RedCloth`
 * [.rdoc](http://rdoc.sourceforge.net/)
 * [.org](http://orgmode.org/) -- `gem install org-ruby`
